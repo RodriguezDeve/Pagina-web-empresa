@@ -1,0 +1,748 @@
+<!--
+
+=========================================================
+* Now UI Kit - v1.3.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/now-ui-kit
+* Copyright 2019 Creative Tim (http://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
+
+* Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/logo-terzett.png">
+  <link rel="icon" type="image/png" href="../assets/img/logo-terzett.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Blog
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="http://fonts.cdnfonts.com/css/flight-maybe-maj" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/css/now-ui-kit.css?v=1.3.0" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body class="landing-page sidebar-collapse">
+  <script>
+    AOS.init();
+  </script>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-orange ">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="english-tz.html" style="font-family: 'Flight mAybe Maj', sans-serif;" rel="tooltip" title="Back to top" data-placement="bottom">
+          Terzett Technologix
+        </a>
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar top-bar"></span>
+          <span class="navbar-toggler-bar middle-bar"></span>
+          <span class="navbar-toggler-bar bottom-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/en/aboutas.html" onclick="scrollToDownload()">
+                <i class="now-ui-icons emoticons_satisfied"></i>
+                <p style="font-family: 'Flight mAybe Maj', sans-serif;">About As</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/en/projects.html" onclick="scrollToDownload()">
+                <i class="now-ui-icons education_agenda-bookmark"></i>
+                <p style="font-family: 'Flight mAybe Maj', sans-serif;">Portafolio</p>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown">
+              <i class="now-ui-icons ui-1_settings-gear-63"></i>
+              <p style="font-family: 'Flight mAybe Maj', sans-serif;">Services</p>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
+              <a class="dropdown-item" target="_blank" href="https://horarios.terzett.tech/index.php/login/Usuario/Password">
+                <i class="now-ui-icons ui-2_time-alarm"></i> Schedule registration
+              </a>
+              <a class="dropdown-item" target="_blank" href="https://mail.ionos.mx/">
+                <i class="now-ui-icons ui-1_email-85"></i> Email Terzett
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/en/blog.html" onclick="scrollToDownload()">
+              <i class="now-ui-icons files_paper"></i>
+              <p style="font-family: 'Flight mAybe Maj', sans-serif;">Blog</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-neutral" href="/en/contact.html">
+              <i class="now-ui-icons tech_mobile"></i>
+              <p style="font-family: 'Flight mAybe Maj', sans-serif;">Contact</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Contact us by WhatsApp" data-placement="bottom" href="#" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+              <p class="d-lg-none d-xl-none">WhatsApp</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/TerzettTechnologix" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+              <p class="d-lg-none d-xl-none">Facebook</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/terzetttechnologix/" target="_blank">
+              <i class="fab fa-instagram"></i>
+              <p class="d-lg-none d-xl-none">Instagram</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Buy in" data-placement="bottom" href="https://www.facebook.com/TerzettTechnologix/shop/?ref_code=search_hcm_cta&ref_surface=mini_shop_items_for_you" target="_blank">
+              <i class="now-ui-icons shopping_basket"></i>
+              <p class="d-lg-none d-xl-none">Shop</p>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown">
+              <span class="material-icons">g_translate</span>  
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
+              <a class="dropdown-item" href="/es/blog.html">
+                Español
+              </a>
+              <a class="dropdown-item" href="/fr/blog.html">
+                Français
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+<!--Titulo-->
+<div class="wrapper">
+    <div class="page-header page-header-small">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('../assets/img/blog.png');">
+      </div>
+      <div class="content-center">
+        <div class="container" data-aos="fade-up" data-aos-duration="3000">
+          <img  src="../assets/img/logo-terzett.png" alt="" width="200">
+          <h2 class="title" style="font-family: 'Flight mAybe Maj', sans-serif;">Blog</h1>
+        </div>
+      </div>
+    </div>
+<!-- End Titulo-->
+
+<!--cards-->
+<br>
+<br>
+<!--7-->
+<div class="container">
+  <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src="https://img.unocero.com/2021/06/Windows11-1024x439.jpeg" alt="Card image cap">
+          <div class="card-body">
+          <h5 class="card-title">Microsoft could be working on Windows 12; this is what we knows</h5>
+          <p class="card-text">Microsoft would have already started recruiting staff to work on this Windows 12, we tell you what is known.</p>
+          <p class="card-text"><small class="text-muted">UNOCERO 14/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.unocero.com/tecnologia/windows-microsoft-sistema-operativo/">Learn more</a>
+          </div>
+      </div>
+  
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>“The most dangerous poison for the entrepreneur is the feeling of achievement. The antidote is to think what can be done to make it better tomorrow.”</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Ingvar Kamprad
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://img.unocero.com/2021/10/samsung_2-1024x558.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Samsung makes it official: We have a presentation date for the Galaxy A series</h5>
+          <p class="card-text">It is expected that during this new event Samsung will present the Galaxy A73 and the Galaxy A53, their cards against the most recent iPhone SE.</p>
+          <p class="card-text"><small class="text-muted">UNOCERO 14/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.unocero.com/noticias/samsung-fecha-presentacion-serie-galaxy-a/">Learn more</a>
+        </div>
+      </div>
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>“Wanting is not enough: you must ask yourself what you are going to do to get what you want.”</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Franklin D. Roosevelt
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">¿Facebook takes a step back? Meta will not allow calls for Putin's death on its platforms</h5>
+          <p class="card-text">Facebook and Instagram have partially reversed their new moderation policy, to indicate that the idea is not to favor hate speech.</p>
+          <p class="card-text"><small class="text-muted">UNOCERO 14/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.unocero.com/noticias/facebook-meta-putin/">Learn more</a>
+        </div>
+      </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>“Triumph is not always winning, but never losing heart.”</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Napoleón Bonaparte
+             </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Apple will not launch an 11-inch iPad Pro with a miniLed screen, according to analysts</h5>
+          <p class="card-text">Apple would be thinking of reversing its idea of ​​​​including miniLED screens and would remain in LCD for the iPad Pro 11, we will tell you</p>
+          <p class="card-text"><small class="text-muted">UNOCERO 14/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.unocero.com/noticias/apple-ipad-pr-miniled/">Learn more</a>
+        </div>
+      </div>
+    </div>
+    </div>
+<!--7-->
+<!--6-->
+<div class="container">
+  <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src="https://cdn.forbes.com.mx/2022/03/Mari%CC%81a-Velez-Crack-the-Code-640x360.jpg" alt="Card image cap">
+          <div class="card-body">
+          <h5 class="card-title">Crack the Code powers kids' futures with coding</h5>
+          <p class="card-text">
+            At the end of last year, this Peruvian edtech, with more than 1,300 active students, raised a seed capital round for $2.7 million.</p>
+          <p class="card-text"><small class="text-muted">Forbes México 07/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.forbes.com.mx/crack-the-code-impulsa-el-futuro-de-los-ninos-con-la-programacion/">Learn more</a>
+          </div>
+      </div>
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>“Whenever they ask you if you can do a job, answer yes and start learning how to do it right away.”</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Franklin Delano Roosevelt
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Technology and programming: the challenge of incorporating more women into the field</h5>
+          <p class="card-text">Despite the fact that attempts are being made to incorporate more women into areas that were historically headed by men, there are still great challenges in programming to reduce the gender gap and encourage more women to be part of the area.</p>
+          <p class="card-text"><small class="text-muted">El Mostrador 12/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.elmostrador.cl/agenda-pais/2022/03/12/programacion-el-desafio-de-incorporar-a-mas-mujeres-al-rubro/">Learn more</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">ISA scheme allows programming students to enter the world of work</h5>
+          <p class="card-text">Universities of computer science and related areas under the income sharing agreement scheme (ISA), allow students to complete their training to join the labor market.</p>
+          <p class="card-text"><small class="text-muted">NOTIPRESS 09/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://notipress.mx/negocios/esquema-isa-estudiantes-de-programacion-mundo-laboral-10261">Learn more</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://i0.wp.com/ensedeciencia.com/wp-content/uploads/2022/03/Python-P.jpg?resize=1024%2C577&ssl=1" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Python: The six best virtual and free courses of this programming language</h5>
+          <p class="card-text">Python is the ideal high-level multi-paradigm programming language for beginners “it is powerful and fast</p>
+          <p class="card-text"><small class="text-muted">Enséñame de Ciencia 13/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://ensedeciencia.com/2022/03/13/python-los-seis-mejores-cursos-virtuales-y-gratuitos-de-este-lenguaje-de-programacion/">Learn more</a>
+        </div>
+      </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>“If you don't need to work to eat, you will need to work to be healthy. Love work and do not let the weeds of idleness grow.”</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              William Penn
+             </small>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+    </div>
+  <!--6-->
+<!--5-->
+<div class="container">
+  <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src="https://i.kinja-img.com/gawker-media/image/upload/98e827bd09d86c3d94611edf6874ee30.jpg" alt="Card image cap">
+          <div class="card-body">
+          <h5 class="card-title">The iPhone 14 will carry the same processor as the iPhone 13, and only the Pro models will change chips, according to a well-known analyst</h5>
+          <p class="card-text">The new iPhone 14 and 14 Max benefit, yes, from an increase in RAM</p>
+          <p class="card-text"><small class="text-muted">Gizmodo en Español 14/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://es.gizmodo.com/el-iphone-14-llevara-el-mismo-procesador-que-el-iphone-1848647878">Learn more</a>
+          </div>
+      </div>
+  
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>“Arriving together is the beginning; Keeping together is progress; working together is success.”</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Henry Ford
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://www.xiaomi4mi.com/wp-content/uploads/2022/03/MiJia-Curtain-Companion_.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">This is the new Xiaomi gadget for your home that sweeps Youpin</h5>
+          <p class="card-text">In the Xiaomi marketplace we can find almost anything, but if there is a type of gadget that succeeds on Youpin, it is those for the home</p>
+          <p class="card-text"><small class="text-muted">Xiaomi4Mi 14/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.xiaomi4mi.com/noticias/info-hogar/este-es-el-nuevo-gadget-de-xiaomi-para-tu-hogar-que-arrasa-en-youpin/">Learn more</a>
+        </div>
+      </div>
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>“Give me an ordinary employee with a goal and I will give you a man who makes history. Give me an exceptional man who has no goals and I will give you an average employee.”</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              JAMES CASH PENNEY
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">These are the future Xbox games that Phil Spencer is most excited about</h5>
+          <p class="card-text">2021 has been crowned one of the best years for Xbox.</p>
+          <p class="card-text"><small class="text-muted">SomosXbox 13/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.somosxbox.com/estos-son-los-futuros-juegos-de-xbox-que-mas-ilusionan-a-phil-spencer/932119">Learn more</a>
+        </div>
+      </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>“I have always believed that if you work hard, the results will come by themselves. I don't do things by halves, because I know that if I do then I can only hope to have half results."</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Michel Jordan
+             </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">"I'm a necessary evil" ELDEN RING hacker is hunting players</h5>
+          <p class="card-text">Malcolm Reynolds returns; if you find it, eliminate your character and it will cause you a ban</p>
+          <p class="card-text"><small class="text-muted">LEVELUP 14/03/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.levelup.com/noticias/666218/Soy-un-mal-necesario-hacker-de-ELDEN-RING-esta-cazando-jugadores">Learn more</a>
+        </div>
+      </div>
+    </div>
+    </div>
+<!--5-->
+<!--4-->
+<div class="container">
+  <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src="../assets/img/noticia5.webp" alt="Card image cap">
+          <div class="card-body">
+          <h5 class="card-title">Telcel launches its 5G network in Mexico; will start in 18 cities in the country</h5>
+          <p class="card-text">The first nationwide 5G commercial network in Mexico will be operated by Telcel starting Monday, February 28, in 18 cities in the Republic</p>
+          <p class="card-text"><small class="text-muted">El Economista 22/02/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.eleconomista.com.mx/empresas/Telcel-estrena-su-red-5G-en-Mexico-arrancara-en-18-ciudades-del-pais-20220222-0040.html">Learn more</a>
+          </div>
+      </div>
+  
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>“The key to successful leadership today is influence, not authority”</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Ken Blanchard
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="../assets/img/noticia6.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">This is how WhatsApp voice calls change</h5>
+          <p class="card-text">WhatsApp's new voice calling interface is now available for Android beta users and some iOS beta testers</p>
+          <p class="card-text"><small class="text-muted">Andro4all 21/02/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://andro4all.com/noticias/whatsapp/asi-cambiaran-las-llamadas-de-voz-de-whatsapp">Learn more</a>
+        </div>
+      </div>
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>"When something is important enough, do it anyway even if the odds are not in your favor"</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Elon Musk
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">The tests are over: Apple's glasses are ready</h5>
+          <p class="card-text">DigiTimes has reported that EVT 2 testing of Apple's glasses has ended and mass production could begin.</p>
+          <p class="card-text"><small class="text-muted">iPadizate 21/02/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://ipadizate.com/apple/las-gafas-de-apple-finalizan-pruebas-para-comenzar-su-produccion">Learn more</a>
+        </div>
+      </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>
+            "Good teams incorporate group work into the culture, thus creating the pillars of success"</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Ted Sundquist
+             </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">How to disable Bixby forever on a Samsung: It takes you only 1 minute</h5>
+          <p class="card-text">If you have a Samsung mobile from the last few years, you know that Bixby is always there waiting.</p>
+          <p class="card-text"><small class="text-muted">Pro Android 21/02/2022</small></p>
+          <a class="btn btn-primary" target="_blank" href="https://www.proandroid.com/como-deshabilitar-bixby-para-siempre-en-un-samsung-te-llevara-solo-1-minuto/">Learn more</a>
+        </div>
+      </div>
+    </div>
+    </div>
+<!--4-->
+<!--3-->
+    <div class="container">
+      <div class="card-columns">
+          <div class="card">
+            <img class="card-img-top" src="../assets/img/noticia7.jpg" alt="Card image cap">
+              <div class="card-body">
+              <h5 class="card-title">WhatsApp, there will be a preview of photos and videos received as a document</h5>
+              <p class="card-text">This could be the solution to cases in which the cell phone memory is not enough to store all the files you receive, we tell you how it will work.</p>
+              <p class="card-text"><small class="text-muted">Mi Bolsillo 22/02/2022</small></p>
+              <a class="btn btn-primary" target="_blank" href="https://www.mibolsillo.com/tecnologia/WhatsApp-habra-vista-previa-de-fotos-y-videos-recibidos-como-documento-20220221-0018.html">Learn more</a>
+              </div>
+          </div>
+          <div class="card p-3">
+            <blockquote class="blockquote mb-0 card-body">
+              <p>"True heroes are made of integrity"</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Hope Solo
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">More than 4,000 pesos discount on this AOC gamer monitor with a 32-inch QHD screen and 144 Hz at Amazon Mexico</h5>
+              <p class="card-text">
+                For someone who is used to playing on their computer, the monitor is one of the fundamental pieces of their setup to better enjoy their favorite titles.</p>
+              <p class="card-text"><small class="text-muted">Xataka México 22/02/2022</small></p>
+              <a class="btn btn-primary" target="_blank" href="https://www.xataka.com.mx/seleccion/4-000-pesos-descuento-este-monitor-gamer-aoc-pantalla-qhd-32-pulgadas-144-hz-amazon-mexico">Learn more</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">iPad keyboard comparison: Logitech Combo Touch vs Magic Keyboard</h5>
+              <p class="card-text">When buying an iPad there are two accessories that are practically essential.</p>
+              <p class="card-text"><small class="text-muted">Apple 5X1 21/02/2022</small></p>
+              <a class="btn btn-primary" target="_blank" href="https://lamanzanamordida.net/reportajes/comparativas/logitech-combo-touch-magic-keyboard-teclado-mejor-ipad/">Learn more</a>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="../assets/img/noticia8.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">"A true work of art of nature": they discover that a rare bacterium developed its own photosynthesis system</h5>
+              <p class="card-text">The structure of the bacterium serves as a funnel through which light energy absorbed at the periphery passes to the center, where it is converted into metabolic energy.</p>
+              <p class="card-text"><small class="text-muted">RT en Español 21/02/2022</small></p>
+              <a class="btn btn-primary" target="_blank" href="https://actualidad.rt.com/actualidad/420745-descubrir-bacteria-desarrollar-sistema-fotosintesis">Learn more</a>
+            </div>
+          </div>
+          <div class="card p-3 text-right">
+            <blockquote class="blockquote mb-0">
+              <p>"Let's promote real productivity, not the image of hard work"</p>
+              <footer class="blockquote-footer">
+                <small class="text-muted">
+                  Scott Belsky
+                 </small>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+        </div>
+<!--3-->
+<!--2-->
+<div class="container">
+<div class="card-columns">
+    <div class="card">
+      <img class="card-img-top" src="../assets/img/noticia4.webp" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Windows 11 (Build 22557): news and fixes</h5>
+        <p class="card-text">New gestures, folders in the start menu, redesigns: this will be the new thing about Windows</p>
+        <p class="card-text"><small class="text-muted">Microsofters 17/02/2022</small></p>
+        <a class="btn btn-primary" target="_blank" href="https://microsofters.com/183792/windows-11-build-22557-novedades-y-correcciones/">Learn more</a>
+        </div>
+    </div>
+    <div class="card p-3">
+      <blockquote class="blockquote mb-0 card-body">
+        <p>“Good teams incorporate group work into the culture, thus creating the pillars of success”</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+            Ted Sundquist
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">Take care, Bitcoin: Banxico assures that its virtual currency will promote financial inclusion</h5>
+        <p class="card-text">The Bank of Mexico seeks to open accounts for banked or unbanked people and expand payment possibilities.</p>
+        <p class="card-text"><small class="text-muted">El Financiero 15/02/2022</small></p>
+        <a class="btn btn-primary" target="_blank" href="https://www.elfinanciero.com.mx/economia/2022/02/15/cuidate-bitcoin-banxico-asegura-que-su-moneda-virtual-impulsara-la-inclusion-financiera/">Learn more</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Mark Zuckerberg changes the way he addresses his employees</h5>
+        <p class="card-text">From now on he will call them 'metamates', a term that would have been coined by the American scientist Douglas Hofstadter.</p>
+        <p class="card-text"><small class="text-muted">RT en Español 17/02/2022</small></p>
+        <a class="btn btn-primary" target="_blank" href="https://actualidad.rt.com/actualidad/420166-mark-zuckerberg-cambiar-manera-dirigirse-empleados">Learn more</a>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="../assets/img/noticia5.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Billionaire Charlie Munger: "I wish bitcoin had been banned immediately"</h5>
+        <p class="card-text">Warren Buffett's partner called cryptocurrency investments a "venereal disease."</p>
+        <p class="card-text"><small class="text-muted">RT en Español 17/02/2022</small></p>
+        <a class="btn btn-primary" target="_blank" href="https://actualidad.rt.com/actualidad/420272-socio-buffett-arremete-bitcoin-prohibicion-eeuu">Learn more</a>
+      </div>
+    </div>
+    <div class="card p-3 text-right">
+      <blockquote class="blockquote mb-0">
+        <p>“Individual commitment to collective effort is what makes a team, a company, a society and even a civilization work”</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+            Vince Lombardi
+           </small>
+        </footer>
+      </blockquote>
+    </div>
+  </div>
+  </div>
+<!--2-->
+<!--1-->
+<div class="container">
+<div class="card-columns">
+    <div class="card">
+      <img class="card-img-top" src="../assets/img/noticia.webp" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">The first major update of Windows 11 arrives in Mexico: changes in the taskbar...</h5>
+        <p class="card-text">Windows 11 gets Android apps, taskbar improvements, and new Player apps.</p>
+        <p class="card-text"><small class="text-muted">Xataka México 15/02/2022</small></p>
+        <a class="btn btn-primary" target="_blank" href="https://www.xataka.com.mx/ordenadores/esta-disponible-actualizacion-windows-11-cambios-barra-tareas-bloc-notas-apps-android-mexico">Learn more</a>
+        </div>
+    </div>
+    <div class="card p-3">
+      <blockquote class="blockquote mb-0 card-body">
+        <p>Any sufficiently advanced technology is equivalent to magic</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+           Sir Arthur C. Clarke
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="../assets/img/noticia2.jpeg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Don't throw away that old Mac: Chrome OS Flex is here so you can keep using it </h5>
+        <p class="card-text">Google introduces "Chrome OS Flex", cloud operating system that extends the life of PC and MAC</p>
+        <p class="card-text"><small class="text-muted">Applesfera 16/02/2022</small></p>
+        <a class="btn btn-primary" target="_blank" href="https://www.applesfera.com/curiosidades/no-tires-ese-mac-antiguo-chrome-os-flex-llega-puedas-seguir-usandolo-2022">Learn more</a>
+      </div>
+    </div>
+    <div class="card p-3">
+      <blockquote class="blockquote mb-0 card-body">
+        <p>Technology gives us the facilities that reduce the barriers of time and distance</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+           Emily Greene Balch
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">USB C will be mandatory in 2022, and not only in smartphones</h5>
+        <p class="card-text">The debate on ports and connections seems to be coming to an end in Europe.</p>
+        <p class="card-text"><small class="text-muted">Pro Android 16/02/2022</small></p>
+        <a class="btn btn-primary" target="_blank" href="https://www.proandroid.com/el-usb-c-sera-obligatorio-en-2022-y-no-solo-en-los-smartphones/">Learn more</a>
+      </div>
+    </div>
+    <div class="card p-3 text-right">
+      <blockquote class="blockquote mb-0">
+        <p>Technology is just a tool. People use the tools to improve their lives</p>
+        <footer class="blockquote-footer">
+          <small class="text-muted">
+            Tom Clancy
+           </small>
+        </footer>
+      </blockquote>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">The third beta of iOS 15.4 already available, is it included news?</h5>
+        <p class="card-text">All the news found in iOS 15.4 beta 3</p>
+        <p class="card-text"><small class="text-muted">Apple 5x1 15/02/2022</small></p>
+        <a class="btn btn-primary" target="_blank" href="https://lamanzanamordida.net/noticias/lanzamientos/beta-3-ios-15-4-otros-sistemas/">Learn m</a>
+      </div>
+    </div>
+  </div>
+  </div>
+<!--1-->
+<!--cards-->
+      <!--CONTACT-->
+      <footer class="footer" data-background-color="black">
+        <div class="row justify-content-md-center text-center">
+          <div class="text-center col-md-12 col-lg-8">
+            <h3>Contact us</h3>
+          </div>
+          <div class="text-center col-md-12 col-lg-8">
+            <a href="tel:5576944312" ><h5 style="font-family: 'Roboto', sans-serif;">+52 55 76 94 43 12</h5></a>
+              <a href="mailto:info@terzett.tech" ><h5 style="font-family: 'Roboto', sans-serif;">info@terzett.tech</h5></a>
+            <h5 style="font-family: 'Roboto', sans-serif;">Hours of operation: 09 - 18 hours GMT-5</h5>
+          </div>
+          <div class="text-center col-md-12 col-lg-8">
+            <a target="_blank" href="#" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg"  rel="tooltip" title="Contact us">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/TerzettTechnologix" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg" rel="tooltip" title="Like us on">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/terzetttechnologix/" class="btn btn-neutral btn-icon btn-instagram btn-lg btn-round" rel="tooltip" title="Follow us on">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/company/terzett-technologix" class="btn btn-neutral btn-icon btn-linkedin btn-lg btn-round" rel="tooltip" title="Follow us on">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=terzett.tech','SiteLock','width=600,height=600,left=160,top=170');"><img title="SiteLock" src="https://shield.sitelock.com/shield/terzett.tech" alt="Seguridad de la página de inicio"></a>
+          </div>
+        </div>
+      </footer>
+        <!-- ENDCONTACT-->
+      </div>
+    </div>
+  </div>
+  <footer class="footer" data-background-color="black">
+    <div class=" container ">
+      <nav>
+        <ul>
+          <li>
+            <a href="https://policy.terzett.tech/quality-en">
+              Quality politics
+            </a>
+          </li>
+          <li>
+            <a href="https://policy.terzett.tech/privacy-en">
+              Privacy notice
+            </a>
+          </li>
+          <li>
+            <a href="https://policy.terzett.tech/security-en">
+              Security policy
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="copyright" id="copyright">
+        &copy;
+        <script style="font-family: 'Flight mAybe Maj', sans-serif;">
+          document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+        </script> Terzett Technologix.
+        <a>All rights reserved</a>
+      </div>
+    </div>
+  </footer>
+</div>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="../assets/js/plugins/bootstrap-switch.js"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+  <script src="../assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/now-ui-kit.js?v=1.3.0" type="text/javascript"></script>
+  <script>
+    $(document).ready(function() {
+      // the body of this function is in assets/js/now-ui-kit.js
+      nowuiKit.initSliders();
+    });
+
+    function scrollToDownload() {
+
+      if ($('.section-download').length != 0) {
+        $("html, body").animate({
+          scrollTop: $('.section-download').offset().top
+        }, 1000);
+      }
+    }
+  </script>
+</body>
+
+</html>
+
+<script>
+  var $animation_elements = $('.slide');
+var $window = $(window);
+function check_if_in_view() {
+var window_height = $window.height();
+var window_top_position = $window.scrollTop();
+var window_bottom_position = (window_top_position + window_height);
+$.each($animation_elements, function() {
+  var $element = $(this);
+  var element_height = $element.outerHeight();
+  var element_top_position = $element.offset().top;
+  var element_bottom_position = (element_top_position + element_height);
+  if ((element_bottom_position >= window_top_position) &&
+      (element_top_position <= window_bottom_position)) {
+    $element.addClass('hasSlid');
+  } else {
+    $element.removeClass('hasSlid');
+  }
+});
+}
+$window.on('scroll resize', check_if_in_view);
+$window.trigger('scroll');
+</script>
+</body>
+
+</html>
